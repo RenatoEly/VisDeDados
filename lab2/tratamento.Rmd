@@ -6,5 +6,16 @@ output: html_notebook
 ```{r}
 library(tidyverse)
 
-data <- read.csv2("")
+data <- read.csv2("enade_2017_pb.csv",sep = ",")
+```
+
+```{r}
+modaEstudo <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n())
+modaMoradia <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n())
+modaRenda <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n())
+idadeMedia <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(
+```
+
+```{r}
+
 ```

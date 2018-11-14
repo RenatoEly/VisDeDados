@@ -178,14 +178,39 @@ $(document).ready(function () {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5cbmRhdGEgPC0gcmVhZC5jc3YyKFwiXCIpXG5gYGAifQ== -->
-<pre class="r"><code>library(tidyverse)
-
-data &lt;- read.csv2(&quot;&quot;)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5gYGAifQ== -->
+<pre class="r"><code>library(tidyverse)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXHUwMDFiWzMwbeKUgOKUgCBcdTAwMWJbMW1BdHRhY2hpbmcgcGFja2FnZXNcdTAwMWJbMjJtIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCB0aWR5dmVyc2UgMS4yLjEg4pSA4pSAXHUwMDFiWzM5bVxuXHUwMDFiWzMwbVx1MDAxYlszMm3inJRcdTAwMWJbMzBtIFx1MDAxYlszNG1nZ3Bsb3QyXHUwMDFiWzMwbSAzLjEuMCAgICAgXHUwMDFiWzMybeKclFx1MDAxYlszMG0gXHUwMDFiWzM0bXB1cnJyICBcdTAwMWJbMzBtIDAuMi41XG5cdTAwMWJbMzJt4pyUXHUwMDFiWzMwbSBcdTAwMWJbMzRtdGliYmxlIFx1MDAxYlszMG0gMS40LjIgICAgIFx1MDAxYlszMm3inJRcdTAwMWJbMzBtIFx1MDAxYlszNG1kcGx5ciAgXHUwMDFiWzMwbSAwLjcuN1xuXHUwMDFiWzMybeKclFx1MDAxYlszMG0gXHUwMDFiWzM0bXRpZHlyICBcdTAwMWJbMzBtIDAuOC4yICAgICBcdTAwMWJbMzJt4pyUXHUwMDFiWzMwbSBcdTAwMWJbMzRtc3RyaW5nclx1MDAxYlszMG0gMS4zLjFcblx1MDAxYlszMm3inJRcdTAwMWJbMzBtIFx1MDAxYlszNG1yZWFkciAgXHUwMDFiWzMwbSAxLjEuMSAgICAgXHUwMDFiWzMybeKclFx1MDAxYlszMG0gXHUwMDFiWzM0bWZvcmNhdHNcdTAwMWJbMzBtIDAuMy4wXHUwMDFiWzM5bVxuXHUwMDFiWzMwbeKUgOKUgCBcdTAwMWJbMW1Db25mbGljdHNcdTAwMWJbMjJtIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCB0aWR5dmVyc2VfY29uZmxpY3RzKCkg4pSA4pSAXG5cdTAwMWJbMzFt4pyWXHUwMDFiWzMwbSBcdTAwMWJbMzRtZHBseXJcdTAwMWJbMzBtOjpcdTAwMWJbMzJtZmlsdGVyKClcdTAwMWJbMzBtIG1hc2tzIFx1MDAxYlszNG1zdGF0c1x1MDAxYlszMG06OmZpbHRlcigpXG5cdTAwMWJbMzFt4pyWXHUwMDFiWzMwbSBcdTAwMWJbMzRtZHBseXJcdTAwMWJbMzBtOjpcdTAwMWJbMzJtbGFnKClcdTAwMWJbMzBtICAgIG1hc2tzIFx1MDAxYlszNG1zdGF0c1x1MDAxYlszMG06OmxhZygpXHUwMDFiWzM5bVxuIn0= -->
+<pre><code>[30m── [1mAttaching packages[22m ─────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──[39m
+[30m[32m✔[30m [34mggplot2[30m 3.1.0     [32m✔[30m [34mpurrr  [30m 0.2.5
+[32m✔[30m [34mtibble [30m 1.4.2     [32m✔[30m [34mdplyr  [30m 0.7.7
+[32m✔[30m [34mtidyr  [30m 0.8.2     [32m✔[30m [34mstringr[30m 1.3.1
+[32m✔[30m [34mreadr  [30m 1.1.1     [32m✔[30m [34mforcats[30m 0.3.0[39m
+[30m── [1mConflicts[22m ────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+[31m✖[30m [34mdplyr[30m::[32mfilter()[30m masks [34mstats[30m::filter()
+[31m✖[30m [34mdplyr[30m::[32mlag()[30m    masks [34mstats[30m::lag()[39m</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGF0YSA8LSByZWFkLmNzdjIoXCJlbmFkZV8yMDE3X3BiLmNzdlwiLHNlcCA9IFwiLFwiKVxuYGBgIn0= -->
+<pre class="r"><code>data &lt;- read.csv2(&quot;enade_2017_pb.csv&quot;,sep = &quot;,&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubW9kYUVzdHVkbyA8LSBkYXRhICU+JSBncm91cF9ieShDT19HUlVQTywgQ09fQ0FURUdBRCwgUUVfSTIzKSAlPiUgc3VtbWFyaXNlKG49bigpKVxubW9kYU1vcmFkaWEgPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSlcbm1vZGFSZW5kYSA8LSBkYXRhICU+JSBncm91cF9ieShDT19HUlVQTywgQ09fQ0FURUdBRCwgUUVfSTIzKSAlPiUgc3VtbWFyaXNlKG49bigpKVxuaWRhZGVNZWRpYSA8LSBkYXRhICU+JSBncm91cF9ieShDT19HUlVQTywgQ09fQ0FURUdBRCwgUUVfSTIzKSAlPiUgc3VtbWFyaXNlKFxuYGBgIn0= -->
+<pre class="r"><code>modaEstudo &lt;- data %&gt;% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %&gt;% summarise(n=n())
+modaMoradia &lt;- data %&gt;% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %&gt;% summarise(n=n())
+modaRenda &lt;- data %&gt;% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %&gt;% summarise(n=n())
+idadeMedia &lt;- data %&gt;% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %&gt;% summarise(</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9CmxpYnJhcnkodGlkeXZlcnNlKQoKZGF0YSA8LSByZWFkLmNzdjIoIiIpCmBgYAo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9CmxpYnJhcnkodGlkeXZlcnNlKQoKZGF0YSA8LSByZWFkLmNzdjIoImVuYWRlXzIwMTdfcGIuY3N2IixzZXAgPSAiLCIpCmBgYAoKYGBge3J9Cm1vZGFFc3R1ZG8gPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSkKbW9kYU1vcmFkaWEgPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSkKbW9kYVJlbmRhIDwtIGRhdGEgJT4lIGdyb3VwX2J5KENPX0dSVVBPLCBDT19DQVRFR0FELCBRRV9JMjMpICU+JSBzdW1tYXJpc2Uobj1uKCkpCmlkYWRlTWVkaWEgPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZSgKYGBgCgpgYGB7cn0KCmBgYA==</div>
 
 
 

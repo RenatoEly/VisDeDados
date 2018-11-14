@@ -1,0 +1,4 @@
+Quantas pessoas moram com você? QE_I07 (mudar range para [0,7])
+Qual a renda total da sua família? QE_I08 (mudar range para [1,7])
+Quantas horas vc estudou por semana? QE_I23 ()
+Idade. NU_IDADE
