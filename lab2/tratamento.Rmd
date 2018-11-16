@@ -20,7 +20,12 @@ idadeMedia <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n(
 qtd_cotas <- data %>% group_by(Cat_Adm, QE_I15, QE_I02) %>% summarise(qtd=n())
 qtd_cotas <- subset(qtd_cotas, QE_I02 != "Não quero declarar")
 ```
+
 ```{r}
-write.csv2(qtd_cotas,"Cotas.csv",sep = ",")
+perc_cotas <-qtd_cotas %>% group_by(Cat_Adm, QE_I15) %>% mutate(total=sum(qtd))
+perc_cotas <- perc_cotas %>% mutate(porc=qtd/total * 100)
 ```
 
+```{r}
+write.csv2(perc_cotas,"Cotas.csv",sep = ",")
+```
