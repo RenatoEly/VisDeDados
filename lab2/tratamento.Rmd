@@ -13,9 +13,14 @@ data <- read.csv2("enade_2017_pb.csv",sep = ",")
 modaEstudo <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n())
 modaMoradia <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n())
 modaRenda <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n())
-idadeMedia <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(
+idadeMedia <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n())
 ```
 
 ```{r}
-
+qtd_cotas <- data %>% group_by(Cat_Adm, QE_I15, QE_I02) %>% summarise(qtd=n())
+qtd_cotas <- subset(qtd_cotas, QE_I02 != "Não quero declarar")
 ```
+```{r}
+write.csv2(qtd_cotas,"Cotas.csv",sep = ",")
+```
+

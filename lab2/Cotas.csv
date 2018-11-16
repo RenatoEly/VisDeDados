@@ -1,0 +1,92 @@
+"";"Cat_Adm";"QE_I15";"QE_I02";"qtd"
+"1";"Privada com fins lucrativos";"A";"Amarela";48
+"2";"Privada com fins lucrativos";"A";"Branca";465
+"3";"Privada com fins lucrativos";"A";"Indígena";3
+"4";"Privada com fins lucrativos";"A";"Parda";387
+"5";"Privada com fins lucrativos";"A";"Preta";41
+"6";"Privada com fins lucrativos";"B";"Branca";2
+"7";"Privada com fins lucrativos";"B";"Parda";5
+"8";"Privada com fins lucrativos";"B";"Preta";2
+"9";"Privada com fins lucrativos";"C";"Amarela";2
+"10";"Privada com fins lucrativos";"C";"Branca";26
+"11";"Privada com fins lucrativos";"C";"Parda";33
+"12";"Privada com fins lucrativos";"C";"Preta";7
+"13";"Privada com fins lucrativos";"D";"Amarela";1
+"14";"Privada com fins lucrativos";"D";"Branca";35
+"15";"Privada com fins lucrativos";"D";"Indígena";1
+"16";"Privada com fins lucrativos";"D";"Parda";37
+"17";"Privada com fins lucrativos";"D";"Preta";7
+"18";"Privada com fins lucrativos";"E";"Amarela";1
+"19";"Privada com fins lucrativos";"E";"Branca";10
+"20";"Privada com fins lucrativos";"E";"Parda";21
+"21";"Privada com fins lucrativos";"E";"Preta";3
+"22";"Privada com fins lucrativos";"F";"Branca";15
+"23";"Privada com fins lucrativos";"F";"Parda";7
+"24";"Privada com fins lucrativos";"F";"Preta";2
+"25";"Privada sem fins lucrativos";"A";"Amarela";5
+"26";"Privada sem fins lucrativos";"A";"Branca";43
+"27";"Privada sem fins lucrativos";"A";"Indígena";1
+"28";"Privada sem fins lucrativos";"A";"Parda";52
+"29";"Privada sem fins lucrativos";"A";"Preta";18
+"30";"Privada sem fins lucrativos";"B";"Parda";1
+"31";"Privada sem fins lucrativos";"C";"Amarela";1
+"32";"Privada sem fins lucrativos";"C";"Branca";4
+"33";"Privada sem fins lucrativos";"C";"Parda";1
+"34";"Privada sem fins lucrativos";"C";"Preta";1
+"35";"Privada sem fins lucrativos";"D";"Branca";1
+"36";"Privada sem fins lucrativos";"D";"Parda";5
+"37";"Privada sem fins lucrativos";"E";"Branca";2
+"38";"Privada sem fins lucrativos";"E";"Parda";1
+"39";"Privada sem fins lucrativos";"F";"Branca";1
+"40";"Privada sem fins lucrativos";"F";"Parda";1
+"41";"Pública Estadual";"A";"Amarela";32
+"42";"Pública Estadual";"A";"Branca";294
+"43";"Pública Estadual";"A";"Indígena";3
+"44";"Pública Estadual";"A";"Parda";468
+"45";"Pública Estadual";"A";"Preta";85
+"46";"Pública Estadual";"B";"Amarela";1
+"47";"Pública Estadual";"B";"Parda";13
+"48";"Pública Estadual";"B";"Preta";12
+"49";"Pública Estadual";"C";"Branca";13
+"50";"Pública Estadual";"C";"Parda";24
+"51";"Pública Estadual";"C";"Preta";4
+"52";"Pública Estadual";"D";"Amarela";10
+"53";"Pública Estadual";"D";"Branca";99
+"54";"Pública Estadual";"D";"Indígena";2
+"55";"Pública Estadual";"D";"Parda";175
+"56";"Pública Estadual";"D";"Preta";16
+"57";"Pública Estadual";"E";"Branca";10
+"58";"Pública Estadual";"E";"Parda";42
+"59";"Pública Estadual";"E";"Preta";7
+"60";"Pública Estadual";"F";"Amarela";4
+"61";"Pública Estadual";"F";"Branca";20
+"62";"Pública Estadual";"F";"Indígena";1
+"63";"Pública Estadual";"F";"Parda";53
+"64";"Pública Estadual";"F";"Preta";10
+"65";"Pública Federal";"A";"Amarela";104
+"66";"Pública Federal";"A";"Branca";1224
+"67";"Pública Federal";"A";"Indígena";18
+"68";"Pública Federal";"A";"Parda";1255
+"69";"Pública Federal";"A";"Preta";237
+"70";"Pública Federal";"B";"Branca";1
+"71";"Pública Federal";"B";"Indígena";6
+"72";"Pública Federal";"B";"Parda";94
+"73";"Pública Federal";"B";"Preta";41
+"74";"Pública Federal";"C";"Amarela";9
+"75";"Pública Federal";"C";"Branca";54
+"76";"Pública Federal";"C";"Indígena";4
+"77";"Pública Federal";"C";"Parda";87
+"78";"Pública Federal";"C";"Preta";15
+"79";"Pública Federal";"D";"Amarela";26
+"80";"Pública Federal";"D";"Branca";170
+"81";"Pública Federal";"D";"Indígena";3
+"82";"Pública Federal";"D";"Parda";283
+"83";"Pública Federal";"D";"Preta";30
+"84";"Pública Federal";"E";"Amarela";1
+"85";"Pública Federal";"E";"Branca";31
+"86";"Pública Federal";"E";"Parda";133
+"87";"Pública Federal";"E";"Preta";46
+"88";"Pública Federal";"F";"Branca";26
+"89";"Pública Federal";"F";"Indígena";2
+"90";"Pública Federal";"F";"Parda";39
+"91";"Pública Federal";"F";"Preta";6
