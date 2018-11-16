@@ -208,13 +208,13 @@ idadeMedia &lt;- data %&gt;% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %&gt;% summa
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucXRkX2NvdGFzIDwtIGRhdGEgJT4lIGdyb3VwX2J5KENhdF9BZG0sIFFFX0kxNSwgUUVfSTAyKSAlPiUgc3VtbWFyaXNlKHF0ZD1uKCkpXG5cbmBgYCJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucXRkX2NvdGFzIDwtIGRhdGEgJT4lIGdyb3VwX2J5KENhdF9BZG0sIFFFX0kxNSwgUUVfSTAyKSAlPiUgc3VtbWFyaXNlKHF0ZD1uKCkpXG5xdGRfY290YXMgPC0gc3Vic2V0KHF0ZF9jb3RhcywgUUVfSTAyICE9IFwiTsOjbyBxdWVybyBkZWNsYXJhclwiKVxucXRkX2NvdGFzW3F0ZF9jb3Rhc1ssMl0gPT0gXCJBXCIsIDJdIDwtIDBcbmBgYCJ9 -->
 <pre class="r"><code>qtd_cotas &lt;- data %&gt;% group_by(Cat_Adm, QE_I15, QE_I02) %&gt;% summarise(qtd=n())
-</code></pre>
+qtd_cotas &lt;- subset(qtd_cotas, QE_I02 != &quot;Não quero declarar&quot;)
+qtd_cotas[qtd_cotas[,2] == &quot;A&quot;, 2] &lt;- 0</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gZ3JvdXBlZF9kZl9pbXBsKGRhdGEsIHVubmFtZSh2YXJzKSwgZHJvcCkgOiBcbiAgQ29sdW1uIGBDYXRfQWRtYCBpcyB1bmtub3duXG4ifQ== -->
-<pre><code>Error in grouped_df_impl(data, unname(vars), drop) : 
-  Column `Cat_Adm` is unknown</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiaW52YWxpZCBmYWN0b3IgbGV2ZWwsIE5BIGdlbmVyYXRlZFxuIn0= -->
+<pre><code>invalid factor level, NA generated</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -232,8 +232,10 @@ idadeMedia &lt;- data %&gt;% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %&gt;% summa
 <pre><code>attempt to set 'sep' ignored</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9CmxpYnJhcnkodGlkeXZlcnNlKQoKZGF0YSA8LSByZWFkLmNzdjIoImVuYWRlXzIwMTdfcGIuY3N2IixzZXAgPSAiLCIpCmBgYAoKYGBge3J9Cm1vZGFFc3R1ZG8gPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSkKbW9kYU1vcmFkaWEgPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSkKbW9kYVJlbmRhIDwtIGRhdGEgJT4lIGdyb3VwX2J5KENPX0dSVVBPLCBDT19DQVRFR0FELCBRRV9JMjMpICU+JSBzdW1tYXJpc2Uobj1uKCkpCmlkYWRlTWVkaWEgPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSkKYGBgCgpgYGB7cn0KcXRkX2NvdGFzIDwtIGRhdGEgJT4lIGdyb3VwX2J5KENhdF9BZG0sIFFFX0kxNSwgUUVfSTAyKSAlPiUgc3VtbWFyaXNlKHF0ZD1uKCkpCnF0ZF9jb3RhcyA8LSBzdWJzZXQocXRkX2NvdGFzLCBRRV9JMDIgIT0gIk7Do28gcXVlcm8gZGVjbGFyYXIiKQpxdGRfY290YXMgPC0gCmBgYAoKYGBge3J9CnBlcmNfY290YXMgPC1xdGRfY290YXMgJT4lIGdyb3VwX2J5KENhdF9BZG0pICU+JSBtdXRhdGUodG90YWw9c3VtKHF0ZCkpCnBlcmNfY290YXMgPC0gcGVyY19jb3RhcyAlPiUgbXV0YXRlKHBvcmM9cXRkL3RvdGFsICogMTAwKQpgYGAKCmBgYHtyfQp3cml0ZS5jc3YyKHBlcmNfY290YXMsIkNvdGFzLmNzdiIpCmBgYA==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9CmxpYnJhcnkodGlkeXZlcnNlKQoKZGF0YSA8LSByZWFkLmNzdjIoImVuYWRlXzIwMTdfcGIuY3N2IixzZXAgPSAiLCIpCmBgYAoKYGBge3J9Cm1vZGFFc3R1ZG8gPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSkKbW9kYU1vcmFkaWEgPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSkKbW9kYVJlbmRhIDwtIGRhdGEgJT4lIGdyb3VwX2J5KENPX0dSVVBPLCBDT19DQVRFR0FELCBRRV9JMjMpICU+JSBzdW1tYXJpc2Uobj1uKCkpCmlkYWRlTWVkaWEgPC0gZGF0YSAlPiUgZ3JvdXBfYnkoQ09fR1JVUE8sIENPX0NBVEVHQUQsIFFFX0kyMykgJT4lIHN1bW1hcmlzZShuPW4oKSkKYGBgCgpgYGB7cn0KcXRkX2NvdGFzIDwtIGRhdGEgJT4lIGdyb3VwX2J5KENhdF9BZG0sIFFFX0kxNSwgUUVfSTAyKSAlPiUgc3VtbWFyaXNlKHF0ZD1uKCkpCnF0ZF9jb3RhcyA8LSBzdWJzZXQocXRkX2NvdGFzLCBRRV9JMDIgIT0gIk7Do28gcXVlcm8gZGVjbGFyYXIiKQpxdGRfY290YXNbcXRkX2NvdGFzWywyXSA9PSAiQSIsIDJdIDwtICJOw6NvIgpgYGAKCmBgYHtyfQpwZXJjX2NvdGFzIDwtcXRkX2NvdGFzICU+JSBncm91cF9ieShDYXRfQWRtKSAlPiUgbXV0YXRlKHRvdGFsPXN1bShxdGQpKQpwZXJjX2NvdGFzIDwtIHBlcmNfY290YXMgJT4lIG11dGF0ZShwb3JjPXF0ZC90b3RhbCAqIDEwMCkKYGBgCgpgYGB7cn0Kd3JpdGUuY3N2MihwZXJjX2NvdGFzLCJDb3Rhcy5jc3YiKQpgYGAKYGBge3J9CgpgYGAK</div>
 
 
 
