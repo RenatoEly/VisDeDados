@@ -22,10 +22,10 @@ qtd_cotas <- subset(qtd_cotas, QE_I02 != "Não quero declarar")
 ```
 
 ```{r}
-perc_cotas <-qtd_cotas %>% group_by(Cat_Adm, QE_I15) %>% mutate(total=sum(qtd))
+perc_cotas <-qtd_cotas %>% group_by(Cat_Adm) %>% mutate(total=sum(qtd))
 perc_cotas <- perc_cotas %>% mutate(porc=qtd/total * 100)
 ```
 
 ```{r}
-write.csv2(perc_cotas,"Cotas.csv",sep = ";")
+write.csv2(perc_cotas,"Cotas.csv")
 ```
