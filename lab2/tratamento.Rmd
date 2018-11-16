@@ -27,5 +27,5 @@ perc_cotas <- perc_cotas %>% mutate(porc=qtd/total * 100)
 ```
 
 ```{r}
-write.csv2(perc_cotas,"Cotas.csv",sep = ",")
+write.csv2(perc_cotas,"Cotas.csv",sep = ";")
 ```
