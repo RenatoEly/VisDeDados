@@ -4,7 +4,7 @@ output: html_notebook
 ---
 
 ```{r}
-library(tidyverse)
+library(dplyr)
 
 data <- read.csv2("enade_2017_pb.csv",sep = ",")
 ```
@@ -17,19 +17,23 @@ idadeMedia <- data %>% group_by(CO_GRUPO, CO_CATEGAD, QE_I23) %>% summarise(n=n(
 ```
 
 ```{r}
-qtd_cotas <- data %>% group_by(Cat_Adm, QE_I15, QE_I02) %>% summarise(qtd=n())
+qtd_cotas <- data %>% group_by(Cat_Adm, QE_I15, QE_I02) %>% summarise(qtd_cotista=n())
 qtd_cotas <- subset(qtd_cotas, QE_I02 != "Não quero declarar")
-qtd_cotas[qtd_cotas[,2] == "A", 2] <- "Não"
+
+qtd_cotas_parent <- data %>% group_by(Cat_Adm, QE_I15, QE_I02, QE_I21) %>% summarise(qtd_parent=n())
+qtd_cotas_parent <- subset(qtd_cotas_parent, QE_I02 != "Não quero declarar")
 ```
 
 ```{r}
-perc_cotas <-qtd_cotas %>% group_by(Cat_Adm) %>% mutate(total=sum(qtd))
-perc_cotas <- perc_cotas %>% mutate(porc=qtd/total * 100)
+perc_cotas <- qtd_cotas %>% group_by(Cat_Adm) %>% mutate(total_cotista=sum(qtd_cotista))
+perc_cotas <- perc_cotas %>% mutate(porc_cotista=qtd_cotista/total_cotista * 100)
+
+cotas_parent <- merge(perc_cotas,qtd_cotas_parent)
 ```
 
 ```{r}
 write.csv2(perc_cotas,"Cotas.csv")
 ```
 ```{r}
-
+qtd_cotas_parent <- data %>% group_by(Cat_Adm)
 ```

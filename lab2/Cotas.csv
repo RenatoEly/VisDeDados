@@ -1,78 +1,158 @@
-"","Cat_Adm","QE_I15","QE_I02","qtd","total","porc"
-"1","Privada com fins lucrativos","Não","Amarela",48,1161,4.1343669250646
-"2","Privada com fins lucrativos","Não","Branca",465,1161,40.0516795865633
-"3","Privada com fins lucrativos","Não","Indígena",3,1161,0.258397932816538
-"4","Privada com fins lucrativos","Não","Parda",387,1161,33.3333333333333
-"5","Privada com fins lucrativos","Não","Preta",41,1161,3.53143841515935
-"6","Privada com fins lucrativos","Critério étnico-racial","Branca",2,1161,0.172265288544358
-"7","Privada com fins lucrativos","Critério étnico-racial","Parda",5,1161,0.430663221360896
-"8","Privada com fins lucrativos","Critério étnico-racial","Preta",2,1161,0.172265288544358
-"9","Privada com fins lucrativos","Critério de renda","Amarela",2,1161,0.172265288544358
-"10","Privada com fins lucrativos","Critério de renda","Branca",26,1161,2.23944875107666
-"11","Privada com fins lucrativos","Critério de renda","Parda",33,1161,2.84237726098191
-"12","Privada com fins lucrativos","Critério de renda","Preta",7,1161,0.602928509905254
-"13","Privada com fins lucrativos","Estudou em escola pública","Amarela",1,1161,0.0861326442721792
-"14","Privada com fins lucrativos","Estudou em escola pública","Branca",35,1161,3.01464254952627
-"15","Privada com fins lucrativos","Estudou em escola pública","Indígena",1,1161,0.0861326442721792
-"16","Privada com fins lucrativos","Estudou em escola pública","Parda",37,1161,3.18690783807063
-"17","Privada com fins lucrativos","Estudou em escola pública","Preta",7,1161,0.602928509905254
-"18","Privada com fins lucrativos","Dois ou mais critérios","Amarela",1,1161,0.0861326442721792
-"19","Privada com fins lucrativos","Dois ou mais critérios","Branca",10,1161,0.861326442721792
-"20","Privada com fins lucrativos","Dois ou mais critérios","Parda",21,1161,1.80878552971576
-"21","Privada com fins lucrativos","Dois ou mais critérios","Preta",3,1161,0.258397932816538
-"25","Privada sem fins lucrativos","Não","Amarela",5,138,3.6231884057971
-"26","Privada sem fins lucrativos","Não","Branca",43,138,31.1594202898551
-"27","Privada sem fins lucrativos","Não","Indígena",1,138,0.72463768115942
-"28","Privada sem fins lucrativos","Não","Parda",52,138,37.6811594202899
-"29","Privada sem fins lucrativos","Não","Preta",18,138,13.0434782608696
-"30","Privada sem fins lucrativos","Critério étnico-racial","Parda",1,138,0.72463768115942
-"31","Privada sem fins lucrativos","Critério de renda","Amarela",1,138,0.72463768115942
-"32","Privada sem fins lucrativos","Critério de renda","Branca",4,138,2.89855072463768
-"33","Privada sem fins lucrativos","Critério de renda","Parda",1,138,0.72463768115942
-"34","Privada sem fins lucrativos","Critério de renda","Preta",1,138,0.72463768115942
-"35","Privada sem fins lucrativos","Estudou em escola pública","Branca",1,138,0.72463768115942
-"36","Privada sem fins lucrativos","Estudou em escola pública","Parda",5,138,3.6231884057971
-"37","Privada sem fins lucrativos","Dois ou mais critérios","Branca",2,138,1.44927536231884
-"38","Privada sem fins lucrativos","Dois ou mais critérios","Parda",1,138,0.72463768115942
-"41","Pública Estadual","Não","Amarela",32,1398,2.28898426323319
-"42","Pública Estadual","Não","Branca",294,1398,21.0300429184549
-"43","Pública Estadual","Não","Indígena",3,1398,0.214592274678112
-"44","Pública Estadual","Não","Parda",468,1398,33.4763948497854
-"45","Pública Estadual","Não","Preta",85,1398,6.08011444921316
-"46","Pública Estadual","Critério étnico-racial","Amarela",1,1398,0.0715307582260372
-"47","Pública Estadual","Critério étnico-racial","Parda",13,1398,0.929899856938484
-"48","Pública Estadual","Critério étnico-racial","Preta",12,1398,0.858369098712446
-"49","Pública Estadual","Critério de renda","Branca",13,1398,0.929899856938484
-"50","Pública Estadual","Critério de renda","Parda",24,1398,1.71673819742489
-"51","Pública Estadual","Critério de renda","Preta",4,1398,0.286123032904149
-"52","Pública Estadual","Estudou em escola pública","Amarela",10,1398,0.715307582260372
-"53","Pública Estadual","Estudou em escola pública","Branca",99,1398,7.08154506437768
-"54","Pública Estadual","Estudou em escola pública","Indígena",2,1398,0.143061516452074
-"55","Pública Estadual","Estudou em escola pública","Parda",175,1398,12.5178826895565
-"56","Pública Estadual","Estudou em escola pública","Preta",16,1398,1.1444921316166
-"57","Pública Estadual","Dois ou mais critérios","Branca",10,1398,0.715307582260372
-"58","Pública Estadual","Dois ou mais critérios","Parda",42,1398,3.00429184549356
-"59","Pública Estadual","Dois ou mais critérios","Preta",7,1398,0.50071530758226
-"65","Pública Federal","Não","Amarela",104,3945,2.6362484157161
-"66","Pública Federal","Não","Branca",1224,3945,31.0266159695818
-"67","Pública Federal","Não","Indígena",18,3945,0.456273764258555
-"68","Pública Federal","Não","Parda",1255,3945,31.8124207858048
-"69","Pública Federal","Não","Preta",237,3945,6.00760456273764
-"70","Pública Federal","Critério étnico-racial","Branca",1,3945,0.0253485424588086
-"71","Pública Federal","Critério étnico-racial","Indígena",6,3945,0.152091254752852
-"72","Pública Federal","Critério étnico-racial","Parda",94,3945,2.38276299112801
-"73","Pública Federal","Critério étnico-racial","Preta",41,3945,1.03929024081115
-"74","Pública Federal","Critério de renda","Amarela",9,3945,0.228136882129278
-"75","Pública Federal","Critério de renda","Branca",54,3945,1.36882129277567
-"76","Pública Federal","Critério de renda","Indígena",4,3945,0.101394169835234
-"77","Pública Federal","Critério de renda","Parda",87,3945,2.20532319391635
-"78","Pública Federal","Critério de renda","Preta",15,3945,0.380228136882129
-"79","Pública Federal","Estudou em escola pública","Amarela",26,3945,0.659062103929024
-"80","Pública Federal","Estudou em escola pública","Branca",170,3945,4.30925221799747
-"81","Pública Federal","Estudou em escola pública","Indígena",3,3945,0.0760456273764259
-"82","Pública Federal","Estudou em escola pública","Parda",283,3945,7.17363751584284
-"83","Pública Federal","Estudou em escola pública","Preta",30,3945,0.760456273764259
-"84","Pública Federal","Dois ou mais critérios","Amarela",1,3945,0.0253485424588086
-"85","Pública Federal","Dois ou mais critérios","Branca",31,3945,0.785804816223067
-"86","Pública Federal","Dois ou mais critérios","Parda",133,3945,3.37135614702155
-"87","Pública Federal","Dois ou mais critérios","Preta",46,3945,1.1660329531052
+"","Cat_Adm","QE_I15","QE_I02","qtd_cotista","total_cotista","porc_cotista","QE_I21","qtd_parent"
+"1","Privada com fins lucrativos","Não","Amarela",48,1161,4.1343669250646,"Não",6
+"2","Privada com fins lucrativos","Não","Amarela",48,1161,4.1343669250646,"Sim",42
+"3","Privada com fins lucrativos","Não","Branca",465,1161,40.0516795865633,"Não",54
+"4","Privada com fins lucrativos","Não","Branca",465,1161,40.0516795865633,"Sim",411
+"5","Privada com fins lucrativos","Não","Indígena",3,1161,0.258397932816538,"Sim",3
+"6","Privada com fins lucrativos","Não","Parda",387,1161,33.3333333333333,"Não",91
+"7","Privada com fins lucrativos","Não","Parda",387,1161,33.3333333333333,"Sim",296
+"8","Privada com fins lucrativos","Não","Preta",41,1161,3.53143841515935,"Não",10
+"9","Privada com fins lucrativos","Não","Preta",41,1161,3.53143841515935,"Sim",31
+"10","Privada com fins lucrativos","Critério de renda","Amarela",2,1161,0.172265288544358,"Sim",2
+"11","Privada com fins lucrativos","Critério de renda","Branca",26,1161,2.23944875107666,"Não",12
+"12","Privada com fins lucrativos","Critério de renda","Branca",26,1161,2.23944875107666,"Sim",14
+"13","Privada com fins lucrativos","Critério de renda","Parda",33,1161,2.84237726098191,"Não",6
+"14","Privada com fins lucrativos","Critério de renda","Parda",33,1161,2.84237726098191,"Sim",27
+"15","Privada com fins lucrativos","Critério de renda","Preta",7,1161,0.602928509905254,"Não",1
+"16","Privada com fins lucrativos","Critério de renda","Preta",7,1161,0.602928509905254,"Sim",6
+"17","Privada com fins lucrativos","Critério étnico-racial","Branca",2,1161,0.172265288544358,"Sim",2
+"18","Privada com fins lucrativos","Critério étnico-racial","Parda",5,1161,0.430663221360896,"Não",1
+"19","Privada com fins lucrativos","Critério étnico-racial","Parda",5,1161,0.430663221360896,"Sim",4
+"20","Privada com fins lucrativos","Critério étnico-racial","Preta",2,1161,0.172265288544358,"Não",2
+"21","Privada com fins lucrativos","Outros critérios","Branca",15,1161,1.29198966408269,"Não",4
+"22","Privada com fins lucrativos","Outros critérios","Branca",15,1161,1.29198966408269,"Sim",11
+"23","Privada com fins lucrativos","Outros critérios","Parda",7,1161,0.602928509905254,"Sim",7
+"24","Privada com fins lucrativos","Outros critérios","Preta",2,1161,0.172265288544358,"Sim",2
+"25","Privada com fins lucrativos","Dois ou mais critérios","Amarela",1,1161,0.0861326442721792,"Sim",1
+"26","Privada com fins lucrativos","Dois ou mais critérios","Branca",10,1161,0.861326442721792,"Não",5
+"27","Privada com fins lucrativos","Dois ou mais critérios","Branca",10,1161,0.861326442721792,"Sim",5
+"28","Privada com fins lucrativos","Dois ou mais critérios","Parda",21,1161,1.80878552971576,"Não",7
+"29","Privada com fins lucrativos","Dois ou mais critérios","Parda",21,1161,1.80878552971576,"Sim",14
+"30","Privada com fins lucrativos","Dois ou mais critérios","Preta",3,1161,0.258397932816538,"Não",2
+"31","Privada com fins lucrativos","Dois ou mais critérios","Preta",3,1161,0.258397932816538,"Sim",1
+"32","Privada com fins lucrativos","Estudou em escola pública ou com bolsa","Amarela",1,1161,0.0861326442721792,"Sim",1
+"33","Privada com fins lucrativos","Estudou em escola pública ou com bolsa","Branca",35,1161,3.01464254952627,"Não",12
+"34","Privada com fins lucrativos","Estudou em escola pública ou com bolsa","Branca",35,1161,3.01464254952627,"Sim",23
+"35","Privada com fins lucrativos","Estudou em escola pública ou com bolsa","Indígena",1,1161,0.0861326442721792,"Sim",1
+"36","Privada com fins lucrativos","Estudou em escola pública ou com bolsa","Parda",37,1161,3.18690783807063,"Não",14
+"37","Privada com fins lucrativos","Estudou em escola pública ou com bolsa","Parda",37,1161,3.18690783807063,"Sim",23
+"38","Privada com fins lucrativos","Estudou em escola pública ou com bolsa","Preta",7,1161,0.602928509905254,"Não",6
+"39","Privada com fins lucrativos","Estudou em escola pública ou com bolsa","Preta",7,1161,0.602928509905254,"Sim",1
+"40","Privada sem fins lucrativos","Não","Amarela",5,138,3.6231884057971,"Não",1
+"41","Privada sem fins lucrativos","Não","Amarela",5,138,3.6231884057971,"Sim",4
+"42","Privada sem fins lucrativos","Não","Branca",43,138,31.1594202898551,"Não",8
+"43","Privada sem fins lucrativos","Não","Branca",43,138,31.1594202898551,"Sim",35
+"44","Privada sem fins lucrativos","Não","Indígena",1,138,0.72463768115942,"Sim",1
+"45","Privada sem fins lucrativos","Não","Parda",52,138,37.6811594202899,"Não",7
+"46","Privada sem fins lucrativos","Não","Parda",52,138,37.6811594202899,"Sim",45
+"47","Privada sem fins lucrativos","Não","Preta",18,138,13.0434782608696,"Não",4
+"48","Privada sem fins lucrativos","Não","Preta",18,138,13.0434782608696,"Sim",14
+"49","Privada sem fins lucrativos","Critério de renda","Amarela",1,138,0.72463768115942,"Sim",1
+"50","Privada sem fins lucrativos","Critério de renda","Branca",4,138,2.89855072463768,"Sim",4
+"51","Privada sem fins lucrativos","Critério de renda","Parda",1,138,0.72463768115942,"Não",1
+"52","Privada sem fins lucrativos","Critério de renda","Preta",1,138,0.72463768115942,"Não",1
+"53","Privada sem fins lucrativos","Critério étnico-racial","Parda",1,138,0.72463768115942,"Sim",1
+"54","Privada sem fins lucrativos","Outros critérios","Branca",1,138,0.72463768115942,"Sim",1
+"55","Privada sem fins lucrativos","Outros critérios","Parda",1,138,0.72463768115942,"Sim",1
+"56","Privada sem fins lucrativos","Dois ou mais critérios","Branca",2,138,1.44927536231884,"Não",1
+"57","Privada sem fins lucrativos","Dois ou mais critérios","Branca",2,138,1.44927536231884,"Sim",1
+"58","Privada sem fins lucrativos","Dois ou mais critérios","Parda",1,138,0.72463768115942,"Não",1
+"59","Privada sem fins lucrativos","Estudou em escola pública ou com bolsa","Branca",1,138,0.72463768115942,"Não",1
+"60","Privada sem fins lucrativos","Estudou em escola pública ou com bolsa","Parda",5,138,3.6231884057971,"Não",1
+"61","Privada sem fins lucrativos","Estudou em escola pública ou com bolsa","Parda",5,138,3.6231884057971,"Sim",4
+"62","Pública Estadual","Não","Amarela",32,1398,2.28898426323319,"Não",13
+"63","Pública Estadual","Não","Amarela",32,1398,2.28898426323319,"Sim",19
+"64","Pública Estadual","Não","Branca",294,1398,21.0300429184549,"Não",99
+"65","Pública Estadual","Não","Branca",294,1398,21.0300429184549,"Sim",195
+"66","Pública Estadual","Não","Indígena",3,1398,0.214592274678112,"Não",2
+"67","Pública Estadual","Não","Indígena",3,1398,0.214592274678112,"Sim",1
+"68","Pública Estadual","Não","Parda",468,1398,33.4763948497854,"Não",177
+"69","Pública Estadual","Não","Parda",468,1398,33.4763948497854,"Sim",291
+"70","Pública Estadual","Não","Preta",85,1398,6.08011444921316,"Não",36
+"71","Pública Estadual","Não","Preta",85,1398,6.08011444921316,"Sim",49
+"72","Pública Estadual","Critério de renda","Branca",13,1398,0.929899856938484,"Não",8
+"73","Pública Estadual","Critério de renda","Branca",13,1398,0.929899856938484,"Sim",5
+"74","Pública Estadual","Critério de renda","Parda",24,1398,1.71673819742489,"Não",17
+"75","Pública Estadual","Critério de renda","Parda",24,1398,1.71673819742489,"Sim",7
+"76","Pública Estadual","Critério de renda","Preta",4,1398,0.286123032904149,"Não",2
+"77","Pública Estadual","Critério de renda","Preta",4,1398,0.286123032904149,"Sim",2
+"78","Pública Estadual","Critério étnico-racial","Amarela",1,1398,0.0715307582260372,"Não",1
+"79","Pública Estadual","Critério étnico-racial","Parda",13,1398,0.929899856938484,"Não",6
+"80","Pública Estadual","Critério étnico-racial","Parda",13,1398,0.929899856938484,"Sim",7
+"81","Pública Estadual","Critério étnico-racial","Preta",12,1398,0.858369098712446,"Não",5
+"82","Pública Estadual","Critério étnico-racial","Preta",12,1398,0.858369098712446,"Sim",7
+"83","Pública Estadual","Outros critérios","Amarela",4,1398,0.286123032904149,"Não",1
+"84","Pública Estadual","Outros critérios","Amarela",4,1398,0.286123032904149,"Sim",3
+"85","Pública Estadual","Outros critérios","Branca",20,1398,1.43061516452074,"Não",4
+"86","Pública Estadual","Outros critérios","Branca",20,1398,1.43061516452074,"Sim",16
+"87","Pública Estadual","Outros critérios","Indígena",1,1398,0.0715307582260372,"Não",1
+"88","Pública Estadual","Outros critérios","Parda",53,1398,3.79113018597997,"Não",21
+"89","Pública Estadual","Outros critérios","Parda",53,1398,3.79113018597997,"Sim",32
+"90","Pública Estadual","Outros critérios","Preta",10,1398,0.715307582260372,"Não",5
+"91","Pública Estadual","Outros critérios","Preta",10,1398,0.715307582260372,"Sim",5
+"92","Pública Estadual","Dois ou mais critérios","Branca",10,1398,0.715307582260372,"Não",4
+"93","Pública Estadual","Dois ou mais critérios","Branca",10,1398,0.715307582260372,"Sim",6
+"94","Pública Estadual","Dois ou mais critérios","Parda",42,1398,3.00429184549356,"Não",21
+"95","Pública Estadual","Dois ou mais critérios","Parda",42,1398,3.00429184549356,"Sim",21
+"96","Pública Estadual","Dois ou mais critérios","Preta",7,1398,0.50071530758226,"Não",3
+"97","Pública Estadual","Dois ou mais critérios","Preta",7,1398,0.50071530758226,"Sim",4
+"98","Pública Estadual","Estudou em escola pública ou com bolsa","Amarela",10,1398,0.715307582260372,"Não",2
+"99","Pública Estadual","Estudou em escola pública ou com bolsa","Amarela",10,1398,0.715307582260372,"Sim",8
+"100","Pública Estadual","Estudou em escola pública ou com bolsa","Branca",99,1398,7.08154506437768,"Não",41
+"101","Pública Estadual","Estudou em escola pública ou com bolsa","Branca",99,1398,7.08154506437768,"Sim",58
+"102","Pública Estadual","Estudou em escola pública ou com bolsa","Indígena",2,1398,0.143061516452074,"Não",1
+"103","Pública Estadual","Estudou em escola pública ou com bolsa","Indígena",2,1398,0.143061516452074,"Sim",1
+"104","Pública Estadual","Estudou em escola pública ou com bolsa","Parda",175,1398,12.5178826895565,"Não",77
+"105","Pública Estadual","Estudou em escola pública ou com bolsa","Parda",175,1398,12.5178826895565,"Sim",98
+"106","Pública Estadual","Estudou em escola pública ou com bolsa","Preta",16,1398,1.1444921316166,"Não",9
+"107","Pública Estadual","Estudou em escola pública ou com bolsa","Preta",16,1398,1.1444921316166,"Sim",7
+"108","Pública Federal","Não","Amarela",104,3945,2.6362484157161,"Não",26
+"109","Pública Federal","Não","Amarela",104,3945,2.6362484157161,"Sim",78
+"110","Pública Federal","Não","Branca",1224,3945,31.0266159695818,"Não",246
+"111","Pública Federal","Não","Branca",1224,3945,31.0266159695818,"Sim",978
+"112","Pública Federal","Não","Indígena",18,3945,0.456273764258555,"Não",7
+"113","Pública Federal","Não","Indígena",18,3945,0.456273764258555,"Sim",11
+"114","Pública Federal","Não","Parda",1255,3945,31.8124207858048,"Não",399
+"115","Pública Federal","Não","Parda",1255,3945,31.8124207858048,"Sim",856
+"116","Pública Federal","Não","Preta",237,3945,6.00760456273764,"Não",83
+"117","Pública Federal","Não","Preta",237,3945,6.00760456273764,"Sim",154
+"118","Pública Federal","Critério de renda","Amarela",9,3945,0.228136882129278,"Não",4
+"119","Pública Federal","Critério de renda","Amarela",9,3945,0.228136882129278,"Sim",5
+"120","Pública Federal","Critério de renda","Branca",54,3945,1.36882129277567,"Não",19
+"121","Pública Federal","Critério de renda","Branca",54,3945,1.36882129277567,"Sim",35
+"122","Pública Federal","Critério de renda","Indígena",4,3945,0.101394169835234,"Não",2
+"123","Pública Federal","Critério de renda","Indígena",4,3945,0.101394169835234,"Sim",2
+"124","Pública Federal","Critério de renda","Parda",87,3945,2.20532319391635,"Não",45
+"125","Pública Federal","Critério de renda","Parda",87,3945,2.20532319391635,"Sim",42
+"126","Pública Federal","Critério de renda","Preta",15,3945,0.380228136882129,"Não",11
+"127","Pública Federal","Critério de renda","Preta",15,3945,0.380228136882129,"Sim",4
+"128","Pública Federal","Critério étnico-racial","Branca",1,3945,0.0253485424588086,"Sim",1
+"129","Pública Federal","Critério étnico-racial","Indígena",6,3945,0.152091254752852,"Não",5
+"130","Pública Federal","Critério étnico-racial","Indígena",6,3945,0.152091254752852,"Sim",1
+"131","Pública Federal","Critério étnico-racial","Parda",94,3945,2.38276299112801,"Não",44
+"132","Pública Federal","Critério étnico-racial","Parda",94,3945,2.38276299112801,"Sim",50
+"133","Pública Federal","Critério étnico-racial","Preta",41,3945,1.03929024081115,"Não",19
+"134","Pública Federal","Critério étnico-racial","Preta",41,3945,1.03929024081115,"Sim",22
+"135","Pública Federal","Outros critérios","Branca",26,3945,0.659062103929024,"Não",5
+"136","Pública Federal","Outros critérios","Branca",26,3945,0.659062103929024,"Sim",21
+"137","Pública Federal","Outros critérios","Indígena",2,3945,0.0506970849176172,"Não",2
+"138","Pública Federal","Outros critérios","Parda",39,3945,0.988593155893536,"Não",19
+"139","Pública Federal","Outros critérios","Parda",39,3945,0.988593155893536,"Sim",20
+"140","Pública Federal","Outros critérios","Preta",6,3945,0.152091254752852,"Não",3
+"141","Pública Federal","Outros critérios","Preta",6,3945,0.152091254752852,"Sim",3
+"142","Pública Federal","Dois ou mais critérios","Amarela",1,3945,0.0253485424588086,"Não",1
+"143","Pública Federal","Dois ou mais critérios","Branca",31,3945,0.785804816223067,"Não",12
+"144","Pública Federal","Dois ou mais critérios","Branca",31,3945,0.785804816223067,"Sim",19
+"145","Pública Federal","Dois ou mais critérios","Parda",133,3945,3.37135614702155,"Não",64
+"146","Pública Federal","Dois ou mais critérios","Parda",133,3945,3.37135614702155,"Sim",69
+"147","Pública Federal","Dois ou mais critérios","Preta",46,3945,1.1660329531052,"Não",22
+"148","Pública Federal","Dois ou mais critérios","Preta",46,3945,1.1660329531052,"Sim",24
+"149","Pública Federal","Estudou em escola pública ou com bolsa","Amarela",26,3945,0.659062103929024,"Não",16
+"150","Pública Federal","Estudou em escola pública ou com bolsa","Amarela",26,3945,0.659062103929024,"Sim",10
+"151","Pública Federal","Estudou em escola pública ou com bolsa","Branca",170,3945,4.30925221799747,"Não",60
+"152","Pública Federal","Estudou em escola pública ou com bolsa","Branca",170,3945,4.30925221799747,"Sim",110
+"153","Pública Federal","Estudou em escola pública ou com bolsa","Indígena",3,3945,0.0760456273764259,"Sim",3
+"154","Pública Federal","Estudou em escola pública ou com bolsa","Parda",283,3945,7.17363751584284,"Não",120
+"155","Pública Federal","Estudou em escola pública ou com bolsa","Parda",283,3945,7.17363751584284,"Sim",163
+"156","Pública Federal","Estudou em escola pública ou com bolsa","Preta",30,3945,0.760456273764259,"Não",14
+"157","Pública Federal","Estudou em escola pública ou com bolsa","Preta",30,3945,0.760456273764259,"Sim",16
