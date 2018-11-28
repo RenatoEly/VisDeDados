@@ -10,16 +10,41 @@ Try executing this chunk by clicking the *Run* button within the chunk or by pla
 ```{r}
 library(readr)
 library(dplyr)
-
-read_csv2(
-    "Basico_CE.csv",
-    locale = locale(encoding = "latin1")) %>% 
-    filter(Nome_do_municipio == "FORTALEZA") %>%
-    write_csv("basico-censo-cg-utf8.csv")
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+```{r}
+data <- read.csv2("Domicilio01_CE.csv", sep = ";")
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```
+
+```{r}
+data$V062 <- as.numeric(levels(data$V062))[data$V062]
+data$V063 <- as.numeric(levels(data$V063))[data$V063]
+data$V064 <- as.numeric(levels(data$V064))[data$V064]
+data$V065 <- as.numeric(levels(data$V065))[data$V065]
+data$V066 <- as.numeric(levels(data$V066))[data$V066]
+data$V067 <- as.numeric(levels(data$V067))[data$V067]
+data$V068 <- as.numeric(levels(data$V068))[data$V068]
+
+data <- data %>% mutate(qtdH = V062 + V063 + V064 + V065 + V066 + V067 + V068)
+```
+
+```{r}
+data$V081 <- as.numeric(levels(data$V081))[data$V081]
+data$V082 <- as.numeric(levels(data$V082))[data$V082]
+data$V083 <- as.numeric(levels(data$V083))[data$V083]
+data$V084 <- as.numeric(levels(data$V084))[data$V084]
+data$V085 <- as.numeric(levels(data$V085))[data$V085]
+data$V086 <- as.numeric(levels(data$V086))[data$V086]
+data$V087 <- as.numeric(levels(data$V087))[data$V087]
+
+data <- data %>% mutate(qtdM = V081 + V082 + V083 + V084 + V085 + V086 + V087)
+```
+
+```{r}
+data$Predominancia <- ifelse(data$qtdH>data$qtdM, "Homem", "Mulher")
+
+write.csv2(data, "Domicilio2_CE.csv")
+```
+
