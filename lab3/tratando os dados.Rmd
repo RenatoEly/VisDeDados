@@ -13,9 +13,11 @@ library(dplyr)
 ```
 
 ```{r}
+
+```
+
+```{r}
 data <- read.csv2("Domicilio01_CE.csv", sep = ";")
-
-
 ```
 
 ```{r}
@@ -43,7 +45,10 @@ data <- data %>% mutate(qtdM = V081 + V082 + V083 + V084 + V085 + V086 + V087)
 ```
 
 ```{r}
-data$Predominancia <- ifelse(data$qtdH>data$qtdM, "Homem", "Mulher")
+dados <- read.csv2("Basico_CE.csv", sep = ";")
+dados <- dados %>% filter(Nome_do_municipio == "FORTALEZA")
+
+data <- data %>% filter(Cod_setor in dados$Cod_setor)
 
 write.csv2(data, "Domicilio2_CE.csv")
 ```
